@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Mountains</title>
+        <style>
+            
+       .destination-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minax(340px,auto));
+            grid-gap:2 rem;
+            align-items: center;
+            margin-top: 5rem;
+        }
+        .col-content{
+            position: relative;
+        }
+        .col-content img{
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 15px;
+            filter: brightness(80%);
+            transition: all  3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            will-change: filter;
+        }
+        .col-content h1{
+            position: absolute;
+            font-size: 22px;
+            font-weight: 500;
+            color: white;
+            left: 15px;
+            bottom: 60px;
+        }
+        .col-content p{
+            position: absolute;
+            font-size: 22px;
+            color: white;
+            left: 15px;
+            bottom: 30px;
+            letter-spacing: 2px;
+        }
+        .col-content imag:hover{
+            filter: brightness(100%) hue-rotate(45deg);
+            transform: scale(1.04);
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="destination-content">
+            <div class="col-content">
+                <img src="mountains/spain-mountains.jpg">
+                <h1>Beautiful Mountains</h1>
+                <p>Spain</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/snowy-mountains-reflected-in-still-lake.jpg">
+                <h1>Snowy mountains reflected in still lake</h1>
+                <p>Sweden</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/mountains-in-colombia.jpg">
+                <h1>beautiful Mountains</h1>
+                <p>Colombia</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/man-hiking-in-mountains.jpg">
+                <h1>man man-hiking-in-mountains</h1>
+                <p>U.S.A</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/landscape-shot-of-green-mountains-below-foggy-sky.jpg">
+                <h1>landscape shot of green mountains below foggy sky</h1>
+                <p>BRAZIL</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/icy-summit-of-a-mountain-on-a-frosty-night.jpg">
+                <h1>icy summit of a mountain on a frosty night</h1>
+                <p>Kenya</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/hiker-looks-up-at-vertical-mountain-peaks.jpg">
+                <h1>hiker looks up at vertical mountain peaks</h1>
+                <p>Asia</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/hiker-looks-out-over-bay-surrounded-by-mountains.jpg">
+                <h1>hiker-looks out over bay surrounded by mountains</h1>
+                <p>Italy</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/hiker-approaches-snow-capped-mountains.jpg">
+                <h1>hiker-approaches-snow-capped-mountains</h1>
+                <p>Canada</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/full-rainbow-over-rocks-and-water.jpg">
+                <h1>full rainbow over rocks and water</h1>
+                <p>U.K</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/cloud-wrapped-mountain.jpg">
+                <h1>cloud wrapped mountain</h1>
+                <p>Asia</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/close-up-of-the-water-coming-into-shore.jpg">
+                <h1>close up of the water coming into shore</h1>
+                <p>Nepal</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/cave-of-wonder-and-lights.jpg">
+                <h1>cave of wonder and lights</h1>
+                <p>Norway</p>
+            </div>
+            <div class="col-content">
+                <img src="mountains/climber-repelling-a-mountain.jpg">
+                <h1>climber repelling a mountain</h1>
+                <p>Bolivia</p>
+            </div>
+        </div>
+    </body>
+</html>

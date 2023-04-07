@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>beaches</title>
+    </head>
+    <style>
+       .destination-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minax(340px,auto));
+            grid-gap:2 rem;
+            align-items: center;
+            margin-top: 5rem;
+        }
+        .col-content{
+            position: relative;
+        }
+        .col-content img{
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 15px;
+            filter: brightness(80%);
+            transition: all  3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            will-change: filter;
+        }
+        .col-content h1{
+            position: absolute;
+            font-size: 22px;
+            font-weight: 500;
+            color: white;
+            left: 15px;
+            bottom: 60px;
+        }
+        .col-content p{
+            position: absolute;
+            font-size: 22px;
+            color: white;
+            left: 15px;
+            bottom: 30px;
+            letter-spacing: 2px;
+        }
+        .col-content imag:hover{
+            filter: brightness(100%) hue-rotate(45deg);
+            transform: scale(1.04);
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <div class="destination-content">
+            <div class="col-content">
+                <img src="beaches/pexels-asad-photo-maldives-457876.jpg">
+                <h1>el satnto beach</h1>
+                <p>Brazil</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-aviv-perets-3257803.jpg">
+                <h1>Avil perets</h1>
+                <p>Europe</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-bella-white-635279.jpg">
+                <h1>Bella white</h1>
+                <p>Los Angeles, U.S.A</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-jess-loiterton-4603410.jpg">
+                <h1>Joss Loiterton</h1>
+                <p>Eritrea, Africa</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-joan-costa-3379683.jpg">
+                <h1>Juan Costa</h1>
+                <p>Panama</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-pok-rie-130879.jpg">
+                <h1>Pok Rie</h1>
+                <p>Bali</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-rifqi-ramadhan-788200.jpg">
+                <h1>Ridqi Ramadhan</h1>
+                <p>Jamaican island</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-suzukii-xingfu-872831.jpg">
+                <h1>Suzuki Xingfu</h1>
+                <p>Asia</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-taryn-elliott-3889795.jpg">
+                <h1>Taryn Elliot</h1>
+                <p>United Kingdom</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/private-holiday-beach.jpg">
+                <h1>Private holiday beach</h1>
+                <p>Zanzibar, Tanzania</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/australian-beach-and-clear-ocean.jpg">
+                <h1>clear beach</h1>
+                <p>Australia</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/beautiful-beach-in-portugal.jpg">
+                <h1>beautiful beach</h1>
+                <p>portugal</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-pixabay-262325.jpg">
+                <h1>Nice Horizons</h1>
+                <p>Mauritius</p>
+               </div>
+               <div class="col-content">
+                <img src="beaches/pexels-pixabay-261292.jpg">
+                <h1>kilifi beach</h1>
+                <p>Kenya</p>
+               </div>
+        </div>
+    </body>
+</html>

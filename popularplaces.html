@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>popular places</title>
+        <style>
+               .destination-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minax(340px,auto));
+            grid-gap:2 rem;
+            align-items: center;
+            margin-top: 5rem;
+        }
+        .col-content{
+            position: relative;
+        }
+        .col-content img{
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 15px;
+            filter: brightness(80%);
+            transition: all  3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            will-change: filter;
+        }
+        .col-content h1{
+            position: absolute;
+            font-size: 22px;
+            font-weight: 500;
+            color: white;
+            left: 15px;
+            bottom: 60px;
+        }
+        .col-content p{
+            position: absolute;
+            font-size: 22px;
+            color: white;
+            left: 15px;
+            bottom: 30px;
+            letter-spacing: 2px;
+        }
+        .col-content imag:hover{
+            filter: brightness(100%) hue-rotate(45deg);
+            transform: scale(1.04);
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="destination-content">
+            <div class="col-content">
+                <img src="places/african-safari-sunset.jpg">
+                <h1>African safari</h1>
+                <p>Masaai Mara, Kenya</p>
+            </div>
+            <div class="col-content">
+                <img src="places/bangkok-thailand-skyline.jpg">
+                <h1>Bangkok thailand skyline</h1>
+                <p>Thailand</p>
+            </div>
+            <div class="col-content">
+                <img src="places/elaborate-building-interior-with-light-teal-walls.jpg">
+                <h1>Taj Mahal</h1>
+                <p>uttar pradesh, INDIA</p>
+            </div>
+            <div class="col-content">
+                <img src="places/footsteps-left-in-sand-dunes.jpg">
+                <h1>Sahara desert</h1>
+                <p>North Africa</p>
+            </div>
+            <div class="col-content">
+                <img src="places/paddling-by-city-skyline.jpg">
+                <h1>paddling-by-city-skyline</h1>
+                <p>Canada</p>
+            </div>
+            <div class="col-content">
+                <img src="places/pexels-spencer-davis-4356144.jpg">
+                <h1>pyramids of Giza</h1>
+                <p>Egypt</p>
+            </div>
+            <div class="col-content">
+                <img src="places/the-eiffel-tower-paris.jpg">
+                <h1>Eiffel tower</h1>
+                <p>paris, France</p>
+            </div>
+            <div class="col-content">
+                <img src="places/two-boats-pass-each-other-under-an-orange-sky.jpg">
+                <h1>two-boats-pass-each-other-under-an-orange-sky</h1>
+                <p>New zealand</p>
+            </div>
+            <div class="col-content">
+                <img src="places/box-piles-in-japanese-market.jpg">
+                <h1>Box piles in japanese-market</h1>
+                <p>Japan</p>
+            </div>
+            <div class="col-content">
+                <img src="places/toronto-stunning-sunset.jpg">
+                <h1>city stunning sunset</h1>
+                <p>Canada</p>
+            </div>
+            <div class="col-content">
+                <img src="places/african-elephant-close-up.jpg">
+                <h1>African elephant close-up</h1>
+                <p>South Africa</p>
+            </div>
+            <div class="col-content">
+                <img src="places/thailand-beach.jpg">
+                <h1>good beach</h1>
+                <p>Thailand</p>
+            </div>
+            <div class="col-content">
+                <img src="places/the-kayak-and-the-rock.jpg">
+                <h1>The kayak and the rock</h1>
+                <p>Indian ocean</p>
+            </div>
+            <div class="col-content">
+                <img src="places/beautiful-beach-in-portugal.jpg">
+                <h1>Water between two huge stones </h1>
+                <p>portugal</p>
+            </div>
+        </div>
+    </body>
+</html>
